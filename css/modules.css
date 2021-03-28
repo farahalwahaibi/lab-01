@@ -1,0 +1,83 @@
+.a{
+    background-color:rgb(209, 207, 203);
+}
+
+.b{
+    background-color: rgb(185, 184, 182);
+}
+
+.c{
+    background-color: rgb(160, 159, 157);
+}
+
+.d{
+    background-color: rgb(133, 132, 130);
+}
+
+.e{
+    background-color: rgb(117, 117, 116);
+}
+
+.f{
+    background-color: rgb(95, 95, 92);
+}
+
+.g{
+    background-color: rgb(77, 77, 75);
+}
+
+.h{
+    background-color: rgb(51, 51, 50);
+}
+
+.i{
+    background-color: rgb(32, 32, 32);
+}
+
+@media  (min-width: 768px) and (max-width: 960px) {
+
+.a p{
+    line-height: 100px;
+}
+
+.b p{
+    line-height: 600px;
+}
+
+.c, .d p{
+    line-height: 200px;
+}
+
+.e, .f, .g, .h p{
+    line-height: 250px;
+}
+
+.i p {
+    line-height: 140px;
+}
+
+}
+
+@media  (min-width: 480px) and (max-width: 767px) {
+
+    .a p{
+        line-height: 75px;
+    }
+    
+    .b p{
+        line-height: 150px;
+    }
+    
+    .c, .d p{
+        line-height: 125px;
+    }
+    
+    .e, .f, .g, .h p{
+        line-height: 250px;
+    }
+    
+    .i p {
+        line-height: 80px;
+    }
+    
+}
