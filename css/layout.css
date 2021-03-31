@@ -11,21 +11,21 @@
         border: black solid;
     }
 
+    .cAndD {
+        display: grid;
+        grid-template: 1fr 1fr;
+    }
+
     .c , .d{
         width: 380px;
         height: 200px;
         margin-top: -600px;
         border: black solid;
+        grid-row: 2/2;
     }
 
     .c{
-        float: left;
         margin-left: 200px;
-    }
-
-    .d{
-        float: left;
-        margin-left: 580px;
     }
 
     .e, .f, .g, .h {
@@ -82,17 +82,21 @@
         border: black solid;
     }
 
+    .eAndF , .gAndH {
+        display: grid;
+        grid-template: 1fr 1fr;
+    }
+
     .e, .f, .g, .h {
         width: 240px;
         height: 250px;
         border: black solid;
-        float: left;
+        grid-row: 2/2;
     }
 
     .i{
         width: 480px;
         height: 80px;
         border: black solid;
-        float: left;
     }
 }
